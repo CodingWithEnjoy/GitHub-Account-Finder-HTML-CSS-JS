@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap");
+
+::placeholder {
+  text-align: end;
+  user-select: none;
+}
+
+::selection {
+  background-color: #2f00ff;
+  color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Vazirmatn", sans-serif;
+  font-weight: 700;
+}
+
+body {
+  background: #131d2f;
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding: 30px 30px;
+  border-radius: 10px;
+  width: 40rem;
+}
+
+.container h1 {
+  margin-bottom: 20px;
+  text-align: end;
+}
+
+.searchContainer {
+  background: #1e2b48;
+  padding: 10px 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchContainer input {
+  background-color: transparent;
+  border: none;
+  width: 80%;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  text-align: end;
+
+}
+
+.searchContainer button {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.detailsContainer {
+  margin-top: 20px;
+  border-radius: 10px;
+  background: #1e2b48;
+  padding: 20px 25px;
+}
+
+.profile {
+  display: flex;
+}
+
+.profile-image {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-image-icon {
+  height: 100%;
+  width: 100%;
+}
+
+.profile-details {
+  padding: 10px;
+  width: 25rem;
+}
+
+.username {
+  font-size: 13px;
+  color: #007bff;
+}
+
+.bio {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.stats {
+  background: #141d2e;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.media {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.media p {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.media-name {
+  color: gainsboro;
+  font-size: 14px;
+  margin-left: 4px;
+}

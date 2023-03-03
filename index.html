@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Account Finder - Coding With Enjoy</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>جستجوگر گیتهاب</h1>
+      <div class="searchContainer">
+        <button onclick="fetchGithubUser()">جستجو</button>
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="نام کاربری را وارد کنید"
+        />
+      </div>
+      <div class="detailsContainer" id="userDetails"></div>
+    </div>
+  </body>
+</html>
