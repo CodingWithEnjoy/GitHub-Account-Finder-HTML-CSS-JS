@@ -1,4 +1,4 @@
-<h2 align="center">جستجوگر گیتهاب | GitHub Account Finder</h2>
+<h2 align="center">جستجوگر گیتهاب | GitHub Account Finder 🚀</h2>
 
 ###
 
